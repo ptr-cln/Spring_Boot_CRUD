@@ -1,6 +1,17 @@
-# Spring_Boot_CRUD
+# Spring Boot CRUD App
+Hello There!<br>
+This is a Spring Boot <b>CRUD</b> App (It creates,reads,updates and deletes).<br>
+It is based on "Person" Entity, that have "ID" and "Name" as attribute (So, pretty basic)<br>
+There is a <b>"Fake DB"</b> that stores data:
+```
+private static List<Person> DB = new ArrayList<>();
+```
+Obviously, if you restart the App, all data will be lost.<br>
+As you can know, thanks to <b>Dependency Injection</b>, you can easily use a real <b>DataBase</b> instead.
 
-TODO (SOON 😄) 
+<br> Below you can find some demonstrations as GIFs (Using Postman)
+
+
 
 ## Post Person Service 
 ![Alt text](https://raw.githubusercontent.com/ptr-cln/Spring_Boot_CRUD/master/ReadmeResources/Post%20Person%20Service.gif)<br>
